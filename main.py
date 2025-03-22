@@ -1,7 +1,7 @@
 import time
 import web3
-from web3 import Web3
-from web3.middleware import geth_poa_middleware
+from web3 import Web3 #web3 == 6.2.0
+from web3.middleware import geth_poa_middleware #web3 == 6.2.0
 
 from decimal import Decimal
 import requests
