@@ -3,7 +3,10 @@ Swap BUSD &lt;-> CAKE working example
 
 Features:
 1) Fetch Gas Programmatically
-2) Set Slippage
+2) Fee is hardcoded to be 0.25%. Pancakeswap v2 is hard coded to always use 0.25% fee. Does not support custom fee tiers like v3.
+
+Considerations:
+Sometimes the quote is you get is good, other times it is really bad as the liquidity in CAKE/USDT does not have enough liquidity to be market accurate. It will be off by multiple %, so please add a check in your code to determine if it is a fair value swap. I recon you should add custom logic to notify you that the fee is not good, and that you should use trust wallet to place the swap, as trust wallet queries multiple liquidity providers like 1inch and 0x. Trust wallet is same swap fee tier as pancake swap. 
 
 Console Output:
 <pre>
