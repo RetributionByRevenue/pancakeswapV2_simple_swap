@@ -1,4 +1,7 @@
-# pancakeswapV2_simple_swap
+# Depercated, please look at my Pancakeswap v3 <a href="https://github.com/RetributionByRevenue/pancakeswapV3_simple_swap/tree/main">example</a>
+
+
+
 Swap BUSD &lt;-> CAKE working example
 
 Features:
